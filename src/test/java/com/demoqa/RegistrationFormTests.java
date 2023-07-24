@@ -42,10 +42,10 @@ public class RegistrationFormTests {
         $("#currentAddress").setValue("40 Lipton Court, Chase Side Sothgate, London, N14");
 
 
-        $("#stateCity-wrapper").$(byText("Select State")).click();
-        $("#react-select-3-option-2").click();
-        $("#stateCity-wrapper").$(byText("Select City")).click();
-        $("#react-select-4-option-0").click();
+        $("#state").click();
+        $("#stateCity-wrapper").$(byText("Haryana")).click();
+        $("#city").click();
+        $("#stateCity-wrapper").$(byText("Karnal")).click();
 
         $("#submit").click();
 
